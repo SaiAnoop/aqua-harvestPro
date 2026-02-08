@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional Rainwater Harvesting Tool Design System
+   Sustainable water theme with blues, greens, and clean aesthetics
+   All colors MUST be HSL for consistency. */
+
+@layer base {
+  :root {
+    /* Water & Sustainability Theme Colors */
+    --background: 210 20% 98%;
+    --foreground: 210 22% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 22% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 22% 15%;
+
+    /* Deep water blue primary */
+    --primary: 200 100% 28%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Light sustainable green */  
+    --secondary: 142 50% 96%;
+    --secondary-foreground: 142 50% 25%;
+
+    /* Subtle water mist */
+    --muted: 210 40% 96%;
+    --muted-foreground: 210 15% 50%;
+
+    /* Fresh water accent */
+    --accent: 185 100% 95%;
+    --accent-foreground: 185 100% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 20% 90%;
+    --input: 210 20% 95%;
+    --ring: 200 100% 28%;
+
+    --radius: 0.5rem;
+
+    /* Water Conservation Theme Extensions */
+    --water-primary: 200 100% 28%;
+    --water-secondary: 185 100% 25%;  
+    --sustainable-green: 142 76% 36%;
+    --sustainable-light: 142 50% 96%;
+    --efficiency-blue: 220 100% 50%;
+    --conservation-teal: 185 100% 35%;
+    
+    /* Gradients */
+    --gradient-water: linear-gradient(135deg, hsl(var(--water-primary)), hsl(var(--water-secondary)));
+    --gradient-sustainable: linear-gradient(135deg, hsl(var(--sustainable-green)), hsl(var(--water-secondary)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--water-primary)) 0%, hsl(var(--sustainable-green)) 100%);
+    
+    /* Chart Colors */
+    --chart-primary: hsl(var(--water-primary));
+    --chart-secondary: hsl(var(--sustainable-green));
+    --chart-accent: hsl(var(--efficiency-blue));
+    --chart-success: hsl(var(--sustainable-green));
+    
+    /* Shadows */
+    --shadow-water: 0 10px 25px -5px hsl(var(--water-primary) / 0.15);
+    --shadow-sustainable: 0 8px 20px -3px hsl(var(--sustainable-green) / 0.12);
+    --shadow-card: 0 4px 12px -2px hsl(210 22% 15% / 0.08);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 210 22% 15%;
+    --foreground: 210 20% 98%;
+
+    --card: 210 22% 18%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 210 22% 18%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 185 100% 60%;
+    --primary-foreground: 210 22% 15%;
+
+    --secondary: 210 22% 25%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 210 22% 25%;
+    --muted-foreground: 210 15% 65%;
+
+    --accent: 185 100% 25%;
+    --accent-foreground: 210 20% 98%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 22% 25%;
+    --input: 210 22% 25%;
+    --ring: 185 100% 60%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
