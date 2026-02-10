@@ -1,4 +1,10 @@
-# 🚀 Project Name
+# 🚀 Rooftop Rainwater Harvesting Feasibility
+
+
+🔗 Live Demo: https://aqua-save-wise.vercel.app/ 
+📂 GitHub Repository: https://github.com/SaiAnoop/aqua-save-wise
+
+
 
 A modern frontend web application built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 
