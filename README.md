@@ -1,142 +1,51 @@
 # 🚀 Rooftop Rainwater Harvesting Feasibility
 
-
 🔗 Live Demo: https://aqua-harvestpro.vercel.app/
 
 📂 GitHub Repository: https://github.com/SaiAnoop/aqua-save-wise
 
+## 📌 Project Overview
 
-
-A modern frontend web application built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.
-
----
+The Rooftop Rainwater Harvesting Feasibility application helps users estimate the potential of rainwater harvesting based on rooftop area and rainfall data. The goal is to create awareness about water conservation and provide a simple way to evaluate rainwater harvesting opportunities.
 
 ## ✨ Features
 
-- Fast development with Vite
-- Fully typed with TypeScript
-- Responsive UI with Tailwind CSS
-- Component library powered by shadcn-ui
-- Clean and scalable project structure
-
----
+* Calculate potential rainwater collection
+* User-friendly and responsive interface
+* Real-time input-based calculations
+* Mobile-friendly design
+* Deployed and accessible online
 
 ## 🛠 Tech Stack
 
-This project is built using:
+* HTML
+* CSS
+* JavaScript
+* React
+* Tailwind CSS
+* Vercel (Deployment)
 
-- **React**
-- **TypeScript**
-- **Vite**
-- **Tailwind CSS**
-- **shadcn-ui**
+## 🏗 Project Structure
 
----
-
-## 📦 Getting Started
-
-Follow these steps to run the project locally.
-
-### Prerequisites
-
-Make sure you have installed:
-
-- **Node.js** (recommended: latest LTS)
-- **npm** or **yarn**
-
----
-
-### Installation
-
-Clone the repository:
-
-```sh
-git clone <YOUR_GIT_URL>
-````
-
-Navigate into the project folder:
-
-```sh
-cd <YOUR_PROJECT_NAME>
-```
-
-Install dependencies:
-
-```sh
-npm install
-```
-
----
-
-## ▶️ Running the Development Server
-
-Start the local dev server:
-
-```sh
-npm run dev
-```
-
-The app will be available at:
-
-```
-http://localhost:5173
-```
-
----
-
-## 📦 Build for Production
-
-To create an optimized production build:
-
-```sh
-npm run build
-```
-
----
-
-## 🔍 Preview Production Build
-
-After building, preview it locally:
-
-```sh
-npm run preview
-```
-
----
+* Components for reusable UI sections
+* Page-based layout organization
+* Utility functions for calculations
+* Responsive design using Tailwind CSS
 
 ## 🚀 Deployment
 
-You can deploy this project easily using platforms like:
+The application is deployed on Vercel for fast and reliable hosting.
 
-* **Vercel**
-* **Netlify**
-* **Cloudflare Pages**
+## 🎯 Learning Outcomes
 
-Simply build the project and upload the generated output.
+Through this project, I gained experience in:
 
----
-
-## 📁 Project Structure (Example)
-
-```
-src/
- ├── components/     # Reusable UI components
- ├── pages/          # Page-level components
- ├── hooks/          # Custom React hooks
- ├── lib/            # Utility functions
- └── main.tsx        # App entry point
-```
-
----
+* Building responsive web interfaces
+* Component-based development using React
+* State management using React Hooks
+* Deploying web applications using Vercel
+* Creating user-focused solutions for real-world problems
 
 ## 📄 License
 
-This project is licensed under the MIT License.
-
----
-
-## 🙌 Contributions
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to fork the repo and submit a pull request.
+This project is intended for educational and learning purposes.
