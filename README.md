@@ -2,7 +2,7 @@
 
 🔗 Live Demo: https://aqua-harvestpro.vercel.app/
 
-📂 GitHub Repository: https://github.com/SaiAnoop/aqua-save-wise
+📂 GitHub Repository: https://github.com/SaiAnoop/aqua-harvestPro
 
 ## 📌 Project Overview
 
